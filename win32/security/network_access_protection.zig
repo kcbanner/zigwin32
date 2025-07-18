@@ -140,7 +140,7 @@ pub const SystemHealthAgentState = extern struct {
 };
 
 pub const SoHAttribute = extern struct {
-    type: u16,
+    @"type": u16,
     size: u16,
     value: ?*u8,
 };
